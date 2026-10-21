@@ -41,6 +41,8 @@ Write `founder/customer.json` (shape: `customer.example.json` in this folder):
   (daily regular, deal hunter, reads every review, loyal to a competitor...).
 - `objections`: the 4 to 8 doubts this kind of buyer really has.
 - `habits` (optional): everyday context lines that make a buyer concrete.
+- `currency` (optional, default `$`): the symbol incomes are shown in, e.g. `₱`.
+- `names` (optional): first names that fit the market, used instead of the default list.
 
 Ground it in something real. Use what the user knows about their customers, and
 if `/founder-competitors` ran, the complaints in `founder/competitors.md`. If the

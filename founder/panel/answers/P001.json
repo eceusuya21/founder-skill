@@ -1,0 +1,13 @@
+{
+  "id": "P001",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "Having someone come to the house while the kids nap sounds nice, but ₱1,800 is a lot of our monthly budget for one set of nails. The gel art I get at the mall costs much less, so I'll save their page and wait until I have an event.",
+  "objection": "₱1,800 for one person is too much for me in a normal month, and I haven't seen their portfolio yet, so I don't know if the designs are worth it.",
+  "would_change_my_mind": "A first-booking promo around ₱1,000 to ₱1,200, plus an Instagram or TikTok portfolio of real client nails that look as good as the designs I save.",
+  "price_too_cheap": 400,
+  "price_cheap": 700,
+  "price_expensive": 1200,
+  "price_too_expensive": 1600
+}

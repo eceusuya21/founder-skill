@@ -1,0 +1,222 @@
+[
+ {
+  "id": "P001",
+  "name": "Kathleen",
+  "age": 45,
+  "segment": "Mom at home with young kids",
+  "income": 256000,
+  "behaviour": "Instagram and TikTok design hunter",
+  "behaviour_how": "Saves nail designs online and picks an artist by their portfolio.",
+  "objection": "Will they arrive on time? Traffic on Ortigas Extension is terrible",
+  "habit": "you work from home three days a week"
+ },
+ {
+  "id": "P002",
+  "name": "Mae",
+  "age": 38,
+  "segment": "Busy working professional or work-from-home",
+  "income": 605000,
+  "behaviour": "Does it herself",
+  "behaviour_how": "Uses press-on nails from Shopee or paints her own nails at home.",
+  "objection": "Press-ons from Shopee look good enough for much less",
+  "habit": "you have two kids under five and rarely get time alone"
+ },
+ {
+  "id": "P003",
+  "name": "Angelica",
+  "age": 43,
+  "segment": "Nail art regular (gets gel art every month or two)",
+  "income": 424000,
+  "behaviour": "Occasion-only",
+  "behaviour_how": "Only gets nails done for weddings, debuts, birthdays and holidays.",
+  "objection": "Is it hygienic to do gel nails at home? Are the tools sterilized?",
+  "habit": "you work from home three days a week"
+ },
+ {
+  "id": "P004",
+  "name": "Grace",
+  "age": 36,
+  "segment": "Mom at home with young kids",
+  "income": 356000,
+  "behaviour": "Price checker",
+  "behaviour_how": "Compares prices on Facebook pages, goes to the neighbourhood parlor for basics.",
+  "objection": "Is there a hidden transport fee or minimum?",
+  "habit": "you have a wedding or debut to attend in the next two months"
+ },
+ {
+  "id": "P005",
+  "name": "Rica",
+  "age": 35,
+  "segment": "Nail art regular (gets gel art every month or two)",
+  "income": 411000,
+  "behaviour": "Instagram and TikTok design hunter",
+  "behaviour_how": "Saves nail designs online and picks an artist by their portfolio.",
+  "objection": "Is it hygienic to do gel nails at home? Are the tools sterilized?",
+  "habit": "you have two kids under five and rarely get time alone"
+ },
+ {
+  "id": "P006",
+  "name": "Liza",
+  "age": 30,
+  "segment": "Nail art regular (gets gel art every month or two)",
+  "income": 548000,
+  "behaviour": "Instagram and TikTok design hunter",
+  "behaviour_how": "Saves nail designs online and picks an artist by their portfolio.",
+  "objection": "Press-ons from Shopee look good enough for much less",
+  "habit": "your sister is getting married next year and you are in the entourage"
+ },
+ {
+  "id": "P007",
+  "name": "Mika",
+  "age": 22,
+  "segment": "Mom at home with young kids",
+  "income": 533000,
+  "behaviour": "Reads every review",
+  "behaviour_how": "Will not book anyone without reviews and real photos from other clients.",
+  "objection": "Will gel done at home last as long as salon gel?",
+  "habit": "your sister is getting married next year and you are in the entourage"
+ },
+ {
+  "id": "P008",
+  "name": "Aileen",
+  "age": 42,
+  "segment": "Bride-to-be or bridal entourage member",
+  "income": 682000,
+  "behaviour": "Loyal to her own nail tech",
+  "behaviour_how": "Has a suki nail tech she messages on Messenger and rarely switches.",
+  "objection": "Is that cheaper or more expensive than the mall?",
+  "habit": "you scroll TikTok nail videos every night"
+ },
+ {
+  "id": "P009",
+  "name": "Charmaine",
+  "age": 40,
+  "segment": "Busy working professional or work-from-home",
+  "income": 841000,
+  "behaviour": "Instagram and TikTok design hunter",
+  "behaviour_how": "Saves nail designs online and picks an artist by their portfolio.",
+  "objection": "Press-ons from Shopee look good enough for much less",
+  "habit": "you scroll TikTok nail videos every night"
+ },
+ {
+  "id": "P010",
+  "name": "Andrea",
+  "age": 42,
+  "segment": "Bride-to-be or bridal entourage member",
+  "income": 501000,
+  "behaviour": "Loyal to her own nail tech",
+  "behaviour_how": "Has a suki nail tech she messages on Messenger and rarely switches.",
+  "objection": "Is there a hidden transport fee or minimum?",
+  "habit": "you live in a subdivision off Ortigas Extension in Cainta"
+ },
+ {
+  "id": "P011",
+  "name": "Bea",
+  "age": 34,
+  "segment": "Nail art regular (gets gel art every month or two)",
+  "income": 378000,
+  "behaviour": "Mall salon regular",
+  "behaviour_how": "Gets nails done at SM Masinag or Robinsons Metro East while shopping, likes the salon setting.",
+  "objection": "Is it hygienic to do gel nails at home? Are the tools sterilized?",
+  "habit": "your sister is getting married next year and you are in the entourage"
+ },
+ {
+  "id": "P012",
+  "name": "Joy",
+  "age": 21,
+  "segment": "Nail art regular (gets gel art every month or two)",
+  "income": 309000,
+  "behaviour": "Price checker",
+  "behaviour_how": "Compares prices on Facebook pages, goes to the neighbourhood parlor for basics.",
+  "objection": "Will gel done at home last as long as salon gel?",
+  "habit": "you have a wedding or debut to attend in the next two months"
+ },
+ {
+  "id": "P013",
+  "name": "Sheila",
+  "age": 43,
+  "segment": "Busy working professional or work-from-home",
+  "income": 560000,
+  "behaviour": "Does it herself",
+  "behaviour_how": "Uses press-on nails from Shopee or paints her own nails at home.",
+  "objection": "I would rather go to my own suki nail tech",
+  "habit": "your sister is getting married next year and you are in the entourage"
+ },
+ {
+  "id": "P014",
+  "name": "Maria",
+  "age": 22,
+  "segment": "Nail art regular (gets gel art every month or two)",
+  "income": 283000,
+  "behaviour": "Price checker",
+  "behaviour_how": "Compares prices on Facebook pages, goes to the neighbourhood parlor for basics.",
+  "objection": "I would rather go to my own suki nail tech",
+  "habit": "you scroll TikTok nail videos every night"
+ },
+ {
+  "id": "P015",
+  "name": "Danica",
+  "age": 24,
+  "segment": "Busy working professional or work-from-home",
+  "income": 1046000,
+  "behaviour": "Occasion-only",
+  "behaviour_how": "Only gets nails done for weddings, debuts, birthdays and holidays.",
+  "objection": "Will gel done at home last as long as salon gel?",
+  "habit": "you commute to Ortigas Center for work"
+ },
+ {
+  "id": "P016",
+  "name": "Kristine",
+  "age": 31,
+  "segment": "Bride-to-be or bridal entourage member",
+  "income": 694000,
+  "behaviour": "Mall salon regular",
+  "behaviour_how": "Gets nails done at SM Masinag or Robinsons Metro East while shopping, likes the salon setting.",
+  "objection": "I would rather go to my own suki nail tech",
+  "habit": "you shop at SM City Masinag most weekends"
+ },
+ {
+  "id": "P017",
+  "name": "Hazel",
+  "age": 24,
+  "segment": "Bride-to-be or bridal entourage member",
+  "income": 304000,
+  "behaviour": "Mall salon regular",
+  "behaviour_how": "Gets nails done at SM Masinag or Robinsons Metro East while shopping, likes the salon setting.",
+  "objection": "I have never seen their work, I need to see a portfolio first",
+  "habit": "you shop at SM City Masinag most weekends"
+ },
+ {
+  "id": "P018",
+  "name": "Princess",
+  "age": 41,
+  "segment": "Busy working professional or work-from-home",
+  "income": 548000,
+  "behaviour": "Occasion-only",
+  "behaviour_how": "Only gets nails done for weddings, debuts, birthdays and holidays.",
+  "objection": "Press-ons from Shopee look good enough for much less",
+  "habit": "you have a wedding or debut to attend in the next two months"
+ },
+ {
+  "id": "P019",
+  "name": "Nicole",
+  "age": 28,
+  "segment": "Bride-to-be or bridal entourage member",
+  "income": 433000,
+  "behaviour": "Reads every review",
+  "behaviour_how": "Will not book anyone without reviews and real photos from other clients.",
+  "objection": "I have never seen their work, I need to see a portfolio first",
+  "habit": "you commute to Ortigas Center for work"
+ },
+ {
+  "id": "P020",
+  "name": "Lovely",
+  "age": 37,
+  "segment": "Nail art regular (gets gel art every month or two)",
+  "income": 385000,
+  "behaviour": "Mall salon regular",
+  "behaviour_how": "Gets nails done at SM Masinag or Robinsons Metro East while shopping, likes the salon setting.",
+  "objection": "Is there a hidden transport fee or minimum?",
+  "habit": "you have a wedding or debut to attend in the next two months"
+ }
+]

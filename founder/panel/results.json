@@ -1,0 +1,161 @@
+{
+ "business": "Home Nail Studio (Cainta): salon-grade nail design done at your home",
+ "seed": 7,
+ "dealt": 20,
+ "answered": 20,
+ "skipped": [],
+ "buys": 0,
+ "passes": 20,
+ "buy_rate": 0.0,
+ "by_segment": [
+  [
+   "Mom at home with young kids",
+   3,
+   0.0
+  ],
+  [
+   "Busy working professional or work-from-home",
+   5,
+   0.0
+  ],
+  [
+   "Nail art regular (gets gel art every month or two)",
+   7,
+   0.0
+  ],
+  [
+   "Bride-to-be or bridal entourage member",
+   5,
+   0.0
+  ]
+ ],
+ "by_behaviour": [
+  [
+   "Instagram and TikTok design hunter",
+   4,
+   0.0
+  ],
+  [
+   "Does it herself",
+   2,
+   0.0
+  ],
+  [
+   "Occasion-only",
+   3,
+   0.0
+  ],
+  [
+   "Price checker",
+   3,
+   0.0
+  ],
+  [
+   "Reads every review",
+   2,
+   0.0
+  ],
+  [
+   "Loyal to her own nail tech",
+   2,
+   0.0
+  ],
+  [
+   "Mall salon regular",
+   4,
+   0.0
+  ]
+ ],
+ "by_income": [
+  [
+   "under ₱385,000",
+   6,
+   0.0
+  ],
+  [
+   "₱548,000 and up",
+   8,
+   0.0
+  ],
+  [
+   "₱385,000 to ₱548,000",
+   6,
+   0.0
+  ]
+ ],
+ "why_not": [
+  [
+   "price",
+   9,
+   [
+    "Having someone come to the house while the kids nap sounds nice, but ₱1,800 is a lot of our monthly budget for one set of nails. The gel art I get at the mall costs much less, so I'll save their page and wait until I have an event.",
+    "₱1,800 is a lot when I can get a full set of press-ons from Shopee for a couple hundred and stick them on while the kids nap. Home service is nice, but for a normal week it's not worth that much to me."
+   ],
+   [
+    "P001",
+    "P002"
+   ]
+  ],
+  [
+   "habit",
+   5,
+   [
+    "I already have my suki nail tech on Messenger and she knows exactly what I like, even for the wedding. ₱1,800 is more than I pay at the mall, so I don't see why I'd switch to someone I've never tried.",
+    "I already have my suki nail tech on Messenger who knows my nails and does what I like, so I'd just book her, even for the wedding. Free home service in Cainta is nice, but ₱1,800 is more than I pay her and I don't know this artist's work yet."
+   ],
+   [
+    "P008",
+    "P010"
+   ]
+  ],
+  [
+   "trust",
+   4,
+   [
+    "It's new, so there are no reviews and no real client photos for me to check, and I don't book anyone without those. Plus ₱1,800 is more than I'd pay for my usual mall gel set, and my sister's wedding isn't until next year, so I'm in no rush.",
+    "I pick my nail artist by their work, and this is a brand-new business I've never seen a single set from. ₱1,800 is more than I'd pay at the mall for gel art, and I'm not paying that on a stranger's word when Shopee press-ons look fine for a fraction of it."
+   ],
+   [
+    "P007",
+    "P009"
+   ]
+  ],
+  [
+   "timing",
+   2,
+   [
+    "I only get my nails done when there's a wedding, debut or birthday coming up, and nothing is on my calendar this month. Even then, ₱1,800 from a brand-new home service I've never heard of feels like a risk next to the mall salon I already know.",
+    "I only get my nails done when there's a wedding, debut or holiday coming, and I don't have one this month. Even then, ₱1,800 from a new page I've never heard of is more than I pay at the mall for gel art, so I'd probably just stick with my usual salon."
+   ],
+   [
+    "P003",
+    "P015"
+   ]
+  ]
+ ],
+ "why_yes": [],
+ "flip": [
+  "A first-booking promo around ₱1,000 to ₱1,200, plus an Instagram or TikTok portfolio of real client nails that look as good as the designs I save.",
+  "If I had a wedding or big event coming up, the venue service with the photo-approved design and the 48-hour chip fix would make me book. Or a simpler plain gel option closer to ₱700-800.",
+  "An event coming up, plus proof of hygiene: a sealed sterilized tool pack opened in front of me and real reviews from women in Cainta I can check.",
+  "A promo of about ₱800 to ₱1,000, or a group rate if my sister and cousins book with me for the wedding so it comes out cheaper per person.",
+  "A first-booking price closer to ₱1,000 to ₱1,200, plus an Instagram or TikTok page with real client nails and a video showing how they sterilize their tools.",
+  "A strong Instagram or TikTok portfolio with real client photos, plus an entourage group rate for my sister's wedding.",
+  "A good number of real reviews and before-and-after photos from actual Cainta clients, especially ones that show how the nails looked two or three weeks later.",
+  "If my suki couldn't do my wedding date and they had a group rate for the whole entourage, around ₱1,200 each, plus real customer photos and reviews from brides in Cainta.",
+  "A real Instagram or TikTok portfolio with close-up videos of their nail art and tagged clients from around Cainta, plus an intro price for a first set.",
+  "If my suki couldn't make the wedding date and they offered a group rate for the whole entourage with real client photos I could check, I'd consider it.",
+  "Seeing how they actually sterilize their tools (sealed pouches opened in front of me, an autoclave, real reviews from brides) when we start planning nails for the whole entourage for my sister's wedding.",
+  "A first-time or event promo around ₱1,000 with real customer photos showing the nails still intact after two or three weeks.",
+  "A group package for the whole entourage at a lower per-person price, with real photos of past wedding clients, so my sister books it and we all get done together at home on the day.",
+  "A first-time promo near ₱800 to ₱900 with real photos and reviews of their work on Facebook",
+  "Having an event coming up, plus real customer photos showing the nails still intact after 2 to 3 weeks, or friends in Cainta who've used them.",
+  "Real reviews or tagged photos from brides I know in Cainta, plus a group rate for the entourage so it's cheaper per person than the mall.",
+  "Seeing a real portfolio of their bridal sets on their Facebook page plus reviews or tags from actual brides, ideally someone I know who used them for their wedding.",
+  "A price closer to ₱1,000 to ₱1,200, or a group rate if my sisters or friends going to the same wedding book with me, plus real photos and reviews from Cainta clients on their Facebook page.",
+  "A Facebook page with lots of real client photos and reviews from other brides or customers I can message, or a friend who already tried them and posted their nails.",
+  "A first-booking promo near ₱1,200 for the wedding, with a real portfolio and reviews from Cainta clients on their Facebook page."
+ ],
+ "purchases_first_month_per_buyer": null,
+ "price_answers": 20
+}

@@ -49,6 +49,11 @@ class Pricing(unittest.TestCase):
         self.assertIn("**inside** the acceptable range", vw.report(res, 0, price=6.5))
         self.assertIn("**above** the acceptable range", vw.report(res, 0, price=40))
 
+    def test_report_uses_the_currency(self):
+        res = vw.analyse(rows())
+        self.assertIn("price, \u20b16.50,", vw.report(res, 0, price=6.5, currency="\u20b1"))
+        self.assertIn("price, $6.50,", vw.report(res, 0, price=6.5))
+
 
 if __name__ == "__main__":
     unittest.main()

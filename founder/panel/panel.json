@@ -1,0 +1,138 @@
+{
+ "n": 20,
+ "seed": 7,
+ "customer": {
+  "business": "Home Nail Studio (Cainta): salon-grade nail design done at your home",
+  "target": "Women in Cainta and nearby Rizal / east Metro Manila, 20 to 45, who pay for gel nail art at mall salons or need nails done for a wedding or event",
+  "where": "Cainta, Rizal, Philippines (Taytay, Antipolo, Pasig, Marikina nearby)",
+  "currency": "₱",
+  "age": [
+   20,
+   45
+  ],
+  "segments": [
+   {
+    "name": "Bride-to-be or bridal entourage member",
+    "share": 0.25,
+    "income": [
+     250000,
+     900000
+    ]
+   },
+   {
+    "name": "Nail art regular (gets gel art every month or two)",
+    "share": 0.35,
+    "income": [
+     200000,
+     700000
+    ]
+   },
+   {
+    "name": "Busy working professional or work-from-home",
+    "share": 0.25,
+    "income": [
+     350000,
+     1200000
+    ]
+   },
+   {
+    "name": "Mom at home with young kids",
+    "share": 0.15,
+    "income": [
+     180000,
+     600000
+    ]
+   }
+  ],
+  "behaviours": [
+   {
+    "name": "Mall salon regular",
+    "share": 0.2,
+    "how": "Gets nails done at SM Masinag or Robinsons Metro East while shopping, likes the salon setting."
+   },
+   {
+    "name": "Instagram and TikTok design hunter",
+    "share": 0.18,
+    "how": "Saves nail designs online and picks an artist by their portfolio."
+   },
+   {
+    "name": "Price checker",
+    "share": 0.17,
+    "how": "Compares prices on Facebook pages, goes to the neighbourhood parlor for basics."
+   },
+   {
+    "name": "Loyal to her own nail tech",
+    "share": 0.12,
+    "how": "Has a suki nail tech she messages on Messenger and rarely switches."
+   },
+   {
+    "name": "Occasion-only",
+    "share": 0.15,
+    "how": "Only gets nails done for weddings, debuts, birthdays and holidays."
+   },
+   {
+    "name": "Reads every review",
+    "share": 0.1,
+    "how": "Will not book anyone without reviews and real photos from other clients."
+   },
+   {
+    "name": "Does it herself",
+    "share": 0.08,
+    "how": "Uses press-on nails from Shopee or paints her own nails at home."
+   }
+  ],
+  "objections": [
+   "Is that cheaper or more expensive than the mall?",
+   "Is it hygienic to do gel nails at home? Are the tools sterilized?",
+   "I have never seen their work, I need to see a portfolio first",
+   "Will they arrive on time? Traffic on Ortigas Extension is terrible",
+   "Will gel done at home last as long as salon gel?",
+   "Is there a hidden transport fee or minimum?",
+   "I would rather go to my own suki nail tech",
+   "Press-ons from Shopee look good enough for much less"
+  ],
+  "habits": [
+   "you live in a subdivision off Ortigas Extension in Cainta",
+   "you work from home three days a week",
+   "you have a wedding or debut to attend in the next two months",
+   "you shop at SM City Masinag most weekends",
+   "you scroll TikTok nail videos every night",
+   "you have two kids under five and rarely get time alone",
+   "you commute to Ortigas Center for work",
+   "your sister is getting married next year and you are in the entourage"
+  ],
+  "names": [
+   "Maria",
+   "Angelica",
+   "Kristine",
+   "Jasmine",
+   "Camille",
+   "Patricia",
+   "Nicole",
+   "Bea",
+   "Andrea",
+   "Joanna",
+   "Kathleen",
+   "Princess",
+   "Rica",
+   "Mae",
+   "Sheila",
+   "Grace",
+   "Joy",
+   "Trisha",
+   "Erika",
+   "Charmaine",
+   "Lovely",
+   "Rochelle",
+   "Aileen",
+   "Hazel",
+   "Mika",
+   "Danica",
+   "Janelle",
+   "Bianca",
+   "Pauline",
+   "Liza"
+  ]
+ },
+ "pitch": "Home Nail Studio, a new home-service nail design business in Cainta, Rizal.\nA trained nail artist comes to your home with a sanitized kit and a gel lamp. No travel, no mall queue.\nSignature gel nail design set (gel polish plus custom nail art on all 10 nails, you pick the design from our portfolio or send your own): ₱1,800 per person.\nFree home service within Cainta; ₱150 transport fee to Taytay, Antipolo, Pasig and Marikina. Book on Facebook Messenger.\nWeddings and events: we come to the venue or your home, design approved by photo before the day, and a free fix within 48 hours if a nail chips.\nAll prices are in Philippine pesos (₱)."
+}

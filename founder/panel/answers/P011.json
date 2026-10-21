@@ -1,0 +1,13 @@
+{
+  "id": "P011",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I like getting my nails done at the mall while I shop, and it's part of my day out. Paying ₱1,800 so someone comes to my house doesn't make sense for my regular gel art, and my sister's wedding isn't until next year.",
+  "objection": "I don't know if their kit is really sterilized. 'Sanitized kit' is just a word on a post. At the mall I can see the salon and how they clean the tools, but at home I'd have no idea what was used on the last client.",
+  "would_change_my_mind": "Seeing how they actually sterilize their tools (sealed pouches opened in front of me, an autoclave, real reviews from brides) when we start planning nails for the whole entourage for my sister's wedding.",
+  "price_too_cheap": 500,
+  "price_cheap": 900,
+  "price_expensive": 1500,
+  "price_too_expensive": 2200
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P002",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "₱1,800 is a lot when I can get a full set of press-ons from Shopee for a couple hundred and stick them on while the kids nap. Home service is nice, but for a normal week it's not worth that much to me.",
+  "objection": "Press-ons from Shopee look good enough for much less, and I'd be paying ₱1,800 every few weeks just to keep it up.",
+  "would_change_my_mind": "If I had a wedding or big event coming up, the venue service with the photo-approved design and the 48-hour chip fix would make me book. Or a simpler plain gel option closer to ₱700-800.",
+  "price_too_cheap": 300,
+  "price_cheap": 600,
+  "price_expensive": 1000,
+  "price_too_expensive": 1500
+}

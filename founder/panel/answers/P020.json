@@ -1,0 +1,13 @@
+{
+  "id": "P020",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "₱1,800 is more than what I pay for gel art at my salon in SM Masinag, and I already get my nails done while I'm at the mall anyway, so home service doesn't save me anything. For the wedding I'd just book my usual salon a day before.",
+  "objection": "Why pay more to have a stranger in my house when I like the salon and get it done while shopping? I don't know this artist's work yet, and I'd want to be sure the ₱1,800 isn't just for simple designs.",
+  "would_change_my_mind": "A first-booking promo near ₱1,200 for the wedding, with a real portfolio and reviews from Cainta clients on their Facebook page.",
+  "price_too_cheap": 400,
+  "price_cheap": 800,
+  "price_expensive": 1300,
+  "price_too_expensive": 1800
+}

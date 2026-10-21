@@ -88,10 +88,11 @@ def deal(customer, n=100, seed=7):
         behs += [b] * k
     rng.shuffle(segs)
     rng.shuffle(behs)
-    names = FIRST_NAMES[:]
+    pool = customer.get("names") or FIRST_NAMES
+    names = list(pool)
     rng.shuffle(names)
     while len(names) < n:
-        names += ["%s %d" % (x, len(names) // len(FIRST_NAMES) + 1) for x in FIRST_NAMES]
+        names += ["%s %d" % (x, len(names) // len(pool) + 1) for x in pool]
     objections = customer["objections"]
     habits = customer.get("habits") or []
     cards = []
@@ -161,7 +162,7 @@ def load_state(d):
 BRIEF = """You are a simulated buyer on a consumer panel. A founder wants to know, before spending any money, whether real people like you would buy. Your answer is only useful if it is honest: most people do not buy most things, and a polite yes is worse than a clear no.
 
 === WHO YOU ARE ===
-{name}, {age}. {segment}. You earn about ${income:,} a year.
+{name}, {age}. {segment}. You earn about {currency}{income:,} a year.
 How you buy: {behaviour}. {behaviour_how}
 {habit_line}The first thing that comes to mind when you hear an offer like this: "{objection}"
 You are one of these people: {target}.
@@ -193,12 +194,13 @@ Create the file {out} with your file-writing tool (do not just print the answer 
 def write_briefs(d, wave=WAVE):
     state, cards = load_state(d)
     target = state["customer"]["target"]
+    cur = state["customer"].get("currency", "$")
     todo = []
     for c in cards:
         out = _path(d, "answers", c["id"] + ".json")
         if _answer_ok(out, c["id"]) is None:
             continue
-        brief = BRIEF.format(pitch=state["pitch"], target=target, out=os.path.abspath(out),
+        brief = BRIEF.format(pitch=state["pitch"], target=target, out=os.path.abspath(out), currency=cur,
                              habit_line=("Your day: %s.\n" % c["habit"]) if c.get("habit") else "",
                              reasons=" / ".join(REASONS), **c)
         bp = _path(d, "briefs", c["id"] + ".md")
@@ -296,9 +298,11 @@ def tally(d):
     # income in thirds of the dealt range, so the bands mean the same thing every run
     incomes = sorted(r["income"] for r in rows)
     cut1, cut2 = incomes[len(incomes) // 3], incomes[2 * len(incomes) // 3]
+    cur = state["customer"].get("currency", "$")
     for r in rows:
-        r["income_band"] = ("under $%s" % "{:,}".format(cut1)) if r["income"] < cut1 else (
-            ("$%s and up" % "{:,}".format(cut2)) if r["income"] >= cut2 else "$%s to $%s" % ("{:,}".format(cut1), "{:,}".format(cut2)))
+        r["income_band"] = ("under %s%s" % (cur, "{:,}".format(cut1))) if r["income"] < cut1 else (
+            ("%s%s and up" % (cur, "{:,}".format(cut2))) if r["income"] >= cut2 else "%s%s to %s%s" % (
+                cur, "{:,}".format(cut1), cur, "{:,}".format(cut2)))
 
     no = [r for r in rows if not r["buys"]]
     yes = [r for r in rows if r["buys"]]

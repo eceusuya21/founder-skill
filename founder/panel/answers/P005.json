@@ -1,0 +1,13 @@
+{
+  "id": "P005",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "Having someone come to the house while the kids nap is honestly tempting, but ₱1,800 is almost double what I pay for gel art at the mall, and I can't justify that every month or two on our budget. I also haven't seen their portfolio yet, and I pick artists by their work.",
+  "objection": "₱1,800 is a lot for regular nails, and the ad says 'sanitized kit' but doesn't tell me how the tools are sterilized. I don't want to risk an infection from a new home-service business I know nothing about.",
+  "would_change_my_mind": "A first-booking price closer to ₱1,000 to ₱1,200, plus an Instagram or TikTok page with real client nails and a video showing how they sterilize their tools.",
+  "price_too_cheap": 400,
+  "price_cheap": 800,
+  "price_expensive": 1300,
+  "price_too_expensive": 1800
+}

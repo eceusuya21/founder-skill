@@ -33,6 +33,14 @@ class Deal(unittest.TestCase):
             self.assertTrue(seg["income"][0] - 500 <= c["income"] <= seg["income"][1] + 500)
             self.assertIn(c["objection"], customer()["objections"])
 
+    def test_profile_can_bring_its_own_names(self):
+        c = customer()
+        c["names"] = ["Ana", "Bea", "Cris"]
+        cards = panel.deal(c, 7, 1)
+        self.assertEqual(len({x["name"] for x in cards}), 7)
+        for x in cards:
+            self.assertIn(x["name"].split(" ")[0], c["names"])
+
     def test_bad_profile_is_refused(self):
         c = customer()
         del c["objections"]
@@ -64,6 +72,19 @@ class Flow(unittest.TestCase):
         self.assertIn("Moss Matcha Bar", brief)
         self.assertIn('"id": "P001"', brief)
         self.assertIn("Do not be agreeable", brief)
+
+    def test_currency_defaults_to_dollars_and_can_be_set(self):
+        with open(panel.write_briefs(self.d)[0][0][1], encoding="utf-8") as fh:
+            self.assertIn("You earn about $", fh.read())
+        c = customer()
+        c["currency"] = "\u20b1"
+        cp = os.path.join(self.d, "peso.json")
+        with open(cp, "w", encoding="utf-8") as fh:
+            json.dump(c, fh)
+        d2 = os.path.join(self.d, "peso")
+        panel.init(d2, cp, example("founder-consumer", "pitch.example.md"), n=3, seed=5)
+        with open(panel.write_briefs(d2)[0][0][1], encoding="utf-8") as fh:
+            self.assertIn("You earn about \u20b1", fh.read())
 
     def test_answered_buyers_get_no_new_brief(self):
         self.answer("P001", True, "quality")

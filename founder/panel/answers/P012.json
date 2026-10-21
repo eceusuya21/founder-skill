@@ -1,0 +1,13 @@
+{
+  "id": "P012",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "₱1,800 is a lot for me, almost what I'd spend on my whole outfit for the debut. I can get gel with simple art at our parlor for ₱500 to ₱700, and there are home-service nail pages on Facebook that charge way less, so I'd compare those first.",
+  "objection": "I don't know if their gel will last as long as salon gel, and I've never seen their work or reviews, so ₱1,800 feels risky for a new page.",
+  "would_change_my_mind": "A first-time or event promo around ₱1,000 with real customer photos showing the nails still intact after two or three weeks.",
+  "price_too_cheap": 350,
+  "price_cheap": 700,
+  "price_expensive": 1200,
+  "price_too_expensive": 1600
+}

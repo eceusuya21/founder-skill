@@ -121,8 +121,8 @@ def analyse(rows, step=None):
             "median": {k: sorted(r[i] for r in rows)[len(rows) // 2] for i, k in enumerate(KEYS)}}
 
 
-def report(res, dropped, price=None):
-    m = lambda v: "n/a" if v is None else "$%.2f" % v
+def report(res, dropped, price=None, currency="$"):
+    m = lambda v: "n/a" if v is None else "%s%s" % (currency, "{:,.2f}".format(v))
     p = res["points"]
     L = ["# Price sensitivity", "",
          "%d complete answers%s. Simulated buyers: use this to pick what to test, not as the final word." % (
@@ -147,6 +147,7 @@ def main(argv=None):
     ap.add_argument("source", help="the panel's answers folder, or a CSV")
     ap.add_argument("--price", type=float, help="your current price, to place it on the range")
     ap.add_argument("--out", help="write the report here (markdown)")
+    ap.add_argument("--currency", default="$", help="symbol to show prices in, e.g. \u20b1")
     ap.add_argument("--json", action="store_true")
     a = ap.parse_args(argv)
     try:
@@ -158,7 +159,7 @@ def main(argv=None):
     if a.json:
         print(json.dumps(dict(res, dropped=dropped), indent=1))
         return 0
-    text = report(res, dropped, a.price)
+    text = report(res, dropped, a.price, a.currency)
     if a.out:
         with open(a.out, "w", encoding="utf-8") as fh:
             fh.write(text)
